@@ -1,0 +1,144 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'DM Mono', monospace;
+}
+h1{
+	font-size: 30px;
+	font-weight: 500;
+	cursor: default;
+}
+h3{
+	font-size: 22px;
+	font-weight: 400;
+	cursor: default;
+}
+p{
+	font-size: 16px;
+	font-weight: 300;
+	cursor: default;
+}
+.nav{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #D3D3D3;
+	border-bottom: solid 3px #000;
+}
+.nav h1{
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #000;
+}
+.content{
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 0px;
+	width: 1000px;
+}
+.content .content-img{
+	margin: 0px;
+	margin-bottom: 100px;
+	padding: 0px;
+	width: 100%;
+}
+.content .content-img img{
+	margin: 0px;
+	padding: 0px;
+	width: 1000px;
+}
+.content .content-text{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.content .content-text h3{
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+	text-align: center;
+}
+.content .content-text .ct1{
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+.content .content-text .ct2{
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+.content .content-text .ct3{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+.footer{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #4E4E4E;
+}
+.footer p{
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+}
+/*------ 1024px ------*/
+@media screen and (max-width: 1024px){
+	.content{
+		margin: 0 auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		padding: 0px;
+		width: 800px;
+	}
+	.content .content-img img{
+		margin: 0px;
+		padding: 0px;
+		width: 800px;
+	}
+}
+/*------ 800px ------*/
+@media screen and (max-width: 800px){
+	.content{
+		margin: 0 auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		padding: 0px;
+		width: 576px;
+	}
+	.content .content-img img{
+		margin: 0px;
+		padding: 0px;
+		width: 576px;
+	}
+}
+/*------ From 414px to 320px ------*/
+@media screen and (max-width: 414px) and (min-width: 320px) and (orientation:portrait){
+	h1{font-size: 22px;}
+	h3{font-size: 20px;}
+	p{font-size: 14px;}
+	.content{
+		margin: 0 auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		padding: 0px;
+		width: 300px;
+	}
+	.content .content-img img{
+		margin: 0px;
+		padding: 0px;
+		width: 300px;
+	}
+}
